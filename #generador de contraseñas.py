@@ -1,7 +1,6 @@
 # generador de contraseñas
 import random
-
-conLong = 0 # se inicia un valor entero que representa la longitud de la contraseña
+conLong = 0
 letras = ("abcdefghi")
 numeros = ("123456789")
 simbolos = "@#!%$/'"
@@ -20,10 +19,10 @@ while respuesta=="y" :
     except ValueError:
      print("ingrese un valor valido")
 
-    for pos in range(conLong):
+   for pos in range(conLong):
      contraseña= contraseña + random.choice(caracteres) #se itera consetraseña con nuevos carateres con la libreria random
 #en el for se ingresa un caracter hasta que alcance al numero ingresado en conLog
-    print("su contraseña es: " + contraseña)
+   print("su contraseña es: " + contraseña)
    conLong=0
    contraseña=""
    #se limpian las respuestas para el segundo while
@@ -33,4 +32,6 @@ while respuesta=="y" :
    if respuesta =="n":#valida la respuesta
     print("fin del programa")
    #fin del programa
+   # video codigo
+   # https://www.loom.com/share/84bee7ad93ea4099a12036ddca671c5a
 
