@@ -13,3 +13,5 @@ while conLong <=0  :
           print("ingrese un numero entero positivo") # imprime un mensaje y se repite el bucle
     except ValueError:
      print("ingrese un valor valido")
+     # enlace video
+     #https://www.loom.com/share/b3d760e5fd374bd2b5504a38ffde1474
