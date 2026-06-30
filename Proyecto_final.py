@@ -63,7 +63,7 @@ def programa_principal():
         print("Su contraseña es" + contraseña_final)
         #el while externo pregunta si quier geberar una nueva contraseña 
         print("¿Desea generar otra contraseña? (escriba 'y' para SÍ o 'n' para NO)")
-        respuesta = input("-> ").lower()
+        respuesta = input().lower()
         if respuesta == "n":
             print("Fin del programa")
 
